@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4083C0B81F25E4A600A337FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083C0B71F25E4A600A337FC /* AppDelegate.swift */; };
+		4083C0BA1F25E4A600A337FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083C0B91F25E4A600A337FC /* ViewController.swift */; };
+		4083C0BD1F25E4A600A337FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4083C0BB1F25E4A600A337FC /* Main.storyboard */; };
+		4083C0BF1F25E4A600A337FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4083C0BE1F25E4A600A337FC /* Assets.xcassets */; };
+		4083C0C21F25E4A600A337FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4083C0C01F25E4A600A337FC /* LaunchScreen.storyboard */; };
+		4083C0CD1F25E4A600A337FC /* TradePasswordTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083C0CC1F25E4A600A337FC /* TradePasswordTextViewTests.swift */; };
+		4083C0D81F25E4A600A337FC /* TradePasswordTextViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083C0D71F25E4A600A337FC /* TradePasswordTextViewUITests.swift */; };
+		4083C0E61F25E4D600A337FC /* JFTradeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4083C0E51F25E4D600A337FC /* JFTradeTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4083C0C91F25E4A600A337FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083C0AC1F25E4A500A337FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4083C0B31F25E4A600A337FC;
+			remoteInfo = TradePasswordTextView;
+		};
+		4083C0D41F25E4A600A337FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4083C0AC1F25E4A500A337FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4083C0B31F25E4A600A337FC;
+			remoteInfo = TradePasswordTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4083C0B41F25E4A600A337FC /* TradePasswordTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradePasswordTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083C0B71F25E4A600A337FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4083C0B91F25E4A600A337FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4083C0BC1F25E4A600A337FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4083C0BE1F25E4A600A337FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4083C0C11F25E4A600A337FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4083C0C31F25E4A600A337FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083C0C81F25E4A600A337FC /* TradePasswordTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradePasswordTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083C0CC1F25E4A600A337FC /* TradePasswordTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradePasswordTextViewTests.swift; sourceTree = "<group>"; };
+		4083C0CE1F25E4A600A337FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083C0D31F25E4A600A337FC /* TradePasswordTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradePasswordTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4083C0D71F25E4A600A337FC /* TradePasswordTextViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradePasswordTextViewUITests.swift; sourceTree = "<group>"; };
+		4083C0D91F25E4A600A337FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4083C0E51F25E4D600A337FC /* JFTradeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFTradeTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4083C0B11F25E4A600A337FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0C51F25E4A600A337FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0D01F25E4A600A337FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4083C0AB1F25E4A500A337FC = {
+			isa = PBXGroup;
+			children = (
+				4083C0B61F25E4A600A337FC /* TradePasswordTextView */,
+				4083C0CB1F25E4A600A337FC /* TradePasswordTextViewTests */,
+				4083C0D61F25E4A600A337FC /* TradePasswordTextViewUITests */,
+				4083C0B51F25E4A600A337FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4083C0B51F25E4A600A337FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4083C0B41F25E4A600A337FC /* TradePasswordTextView.app */,
+				4083C0C81F25E4A600A337FC /* TradePasswordTextViewTests.xctest */,
+				4083C0D31F25E4A600A337FC /* TradePasswordTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4083C0B61F25E4A600A337FC /* TradePasswordTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4083C0B71F25E4A600A337FC /* AppDelegate.swift */,
+				4083C0B91F25E4A600A337FC /* ViewController.swift */,
+				4083C0E51F25E4D600A337FC /* JFTradeTextField.swift */,
+				4083C0BB1F25E4A600A337FC /* Main.storyboard */,
+				4083C0BE1F25E4A600A337FC /* Assets.xcassets */,
+				4083C0C01F25E4A600A337FC /* LaunchScreen.storyboard */,
+				4083C0C31F25E4A600A337FC /* Info.plist */,
+			);
+			path = TradePasswordTextView;
+			sourceTree = "<group>";
+		};
+		4083C0CB1F25E4A600A337FC /* TradePasswordTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4083C0CC1F25E4A600A337FC /* TradePasswordTextViewTests.swift */,
+				4083C0CE1F25E4A600A337FC /* Info.plist */,
+			);
+			path = TradePasswordTextViewTests;
+			sourceTree = "<group>";
+		};
+		4083C0D61F25E4A600A337FC /* TradePasswordTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4083C0D71F25E4A600A337FC /* TradePasswordTextViewUITests.swift */,
+				4083C0D91F25E4A600A337FC /* Info.plist */,
+			);
+			path = TradePasswordTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4083C0B31F25E4A600A337FC /* TradePasswordTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083C0DC1F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextView" */;
+			buildPhases = (
+				4083C0B01F25E4A600A337FC /* Sources */,
+				4083C0B11F25E4A600A337FC /* Frameworks */,
+				4083C0B21F25E4A600A337FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradePasswordTextView;
+			productName = TradePasswordTextView;
+			productReference = 4083C0B41F25E4A600A337FC /* TradePasswordTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4083C0C71F25E4A600A337FC /* TradePasswordTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083C0DF1F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextViewTests" */;
+			buildPhases = (
+				4083C0C41F25E4A600A337FC /* Sources */,
+				4083C0C51F25E4A600A337FC /* Frameworks */,
+				4083C0C61F25E4A600A337FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083C0CA1F25E4A600A337FC /* PBXTargetDependency */,
+			);
+			name = TradePasswordTextViewTests;
+			productName = TradePasswordTextViewTests;
+			productReference = 4083C0C81F25E4A600A337FC /* TradePasswordTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4083C0D21F25E4A600A337FC /* TradePasswordTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4083C0E21F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextViewUITests" */;
+			buildPhases = (
+				4083C0CF1F25E4A600A337FC /* Sources */,
+				4083C0D01F25E4A600A337FC /* Frameworks */,
+				4083C0D11F25E4A600A337FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4083C0D51F25E4A600A337FC /* PBXTargetDependency */,
+			);
+			name = TradePasswordTextViewUITests;
+			productName = TradePasswordTextViewUITests;
+			productReference = 4083C0D31F25E4A600A337FC /* TradePasswordTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4083C0AC1F25E4A500A337FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = F;
+				TargetAttributes = {
+					4083C0B31F25E4A600A337FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					4083C0C71F25E4A600A337FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4083C0B31F25E4A600A337FC;
+					};
+					4083C0D21F25E4A600A337FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4083C0B31F25E4A600A337FC;
+					};
+				};
+			};
+			buildConfigurationList = 4083C0AF1F25E4A500A337FC /* Build configuration list for PBXProject "TradePasswordTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4083C0AB1F25E4A500A337FC;
+			productRefGroup = 4083C0B51F25E4A600A337FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4083C0B31F25E4A600A337FC /* TradePasswordTextView */,
+				4083C0C71F25E4A600A337FC /* TradePasswordTextViewTests */,
+				4083C0D21F25E4A600A337FC /* TradePasswordTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4083C0B21F25E4A600A337FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083C0C21F25E4A600A337FC /* LaunchScreen.storyboard in Resources */,
+				4083C0BF1F25E4A600A337FC /* Assets.xcassets in Resources */,
+				4083C0BD1F25E4A600A337FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0C61F25E4A600A337FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0D11F25E4A600A337FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4083C0B01F25E4A600A337FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083C0BA1F25E4A600A337FC /* ViewController.swift in Sources */,
+				4083C0B81F25E4A600A337FC /* AppDelegate.swift in Sources */,
+				4083C0E61F25E4D600A337FC /* JFTradeTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0C41F25E4A600A337FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083C0CD1F25E4A600A337FC /* TradePasswordTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4083C0CF1F25E4A600A337FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4083C0D81F25E4A600A337FC /* TradePasswordTextViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4083C0CA1F25E4A600A337FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4083C0B31F25E4A600A337FC /* TradePasswordTextView */;
+			targetProxy = 4083C0C91F25E4A600A337FC /* PBXContainerItemProxy */;
+		};
+		4083C0D51F25E4A600A337FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4083C0B31F25E4A600A337FC /* TradePasswordTextView */;
+			targetProxy = 4083C0D41F25E4A600A337FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4083C0BB1F25E4A600A337FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4083C0BC1F25E4A600A337FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4083C0C01F25E4A600A337FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4083C0C11F25E4A600A337FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4083C0DA1F25E4A600A337FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4083C0DB1F25E4A600A337FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4083C0DD1F25E4A600A337FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TradePasswordTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4083C0DE1F25E4A600A337FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TradePasswordTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4083C0E01F25E4A600A337FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradePasswordTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradePasswordTextView.app/TradePasswordTextView";
+			};
+			name = Debug;
+		};
+		4083C0E11F25E4A600A337FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TradePasswordTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TradePasswordTextView.app/TradePasswordTextView";
+			};
+			name = Release;
+		};
+		4083C0E31F25E4A600A337FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TradePasswordTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TradePasswordTextView;
+			};
+			name = Debug;
+		};
+		4083C0E41F25E4A600A337FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TradePasswordTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = feng.TradePasswordTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TradePasswordTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4083C0AF1F25E4A500A337FC /* Build configuration list for PBXProject "TradePasswordTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083C0DA1F25E4A600A337FC /* Debug */,
+				4083C0DB1F25E4A600A337FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4083C0DC1F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083C0DD1F25E4A600A337FC /* Debug */,
+				4083C0DE1F25E4A600A337FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4083C0DF1F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083C0E01F25E4A600A337FC /* Debug */,
+				4083C0E11F25E4A600A337FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4083C0E21F25E4A600A337FC /* Build configuration list for PBXNativeTarget "TradePasswordTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4083C0E31F25E4A600A337FC /* Debug */,
+				4083C0E41F25E4A600A337FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4083C0AC1F25E4A500A337FC /* Project object */;
+}
